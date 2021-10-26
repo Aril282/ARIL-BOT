@@ -972,7 +972,7 @@ TIME-INFO
 - Wit : ${timeWit}  
 - Hari : ${week} ${weton}
 - Tanggal : ${calender}`
-sendButLocation(from, `${menu}`, `${uwu}H E L G A 右${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}allmenu`,buttonText:{displayText:'MENU📒'},type:1},{buttonId:`${prefix}owner`,buttonText:{displayText:'DEVELOPER👤'},type:1},{buttonId:`${prefix}script`,buttonText:{displayText:'SCRIPT🌹'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, `${uwu}ARIL 右${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}allmenu`,buttonText:{displayText:'MENU📒'},type:1},{buttonId:`${prefix}owner`,buttonText:{displayText:'DEVELOPER👤'},type:1},{buttonId:`${prefix}script`,buttonText:{displayText:'SCRIPT🌹'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 break
 case 'allmenu':
         ptod = "6282138919347@s.whatsapp.net"
@@ -1257,7 +1257,7 @@ break
 case 'command':
  listMsg = {
  buttonText: 'LIST MENU',
- footerText: '*_© Helga Ilham_*',
+ footerText: '*_© ARIL STORE_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
